@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.summer.gmall.mock.db.mapper.DimDayMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.summer.gmall.mock.db.bean.DimDay">
+        <id column="id" property="id"/>
+        <result column="day_key" property="dayKey"/>
+        <result column="day" property="day"/>
+        <result column="isworkday" property="isworkday"/>
+        <result column="week" property="week"/>
+        <result column="week_name" property="weekName"/>
+        <result column="weekofday" property="weekofday"/>
+        <result column="weekofday_name" property="weekofdayName"/>
+        <result column="month" property="month"/>
+        <result column="month_name" property="monthName"/>
+        <result column="season" property="season"/>
+        <result column="season_name" property="seasonName"/>
+        <result column="year" property="year"/>
+        <result column="year_name" property="yearName"/>
+        <result column="month_yyyy_mm" property="monthYyyyMm"/>
+        <result column="week_yyyy_ww" property="weekYyyyWw"/>
+    </resultMap>
+
+</mapper>
